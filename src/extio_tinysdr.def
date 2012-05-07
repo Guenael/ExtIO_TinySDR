@@ -1,0 +1,27 @@
+LIBRARY     "ExtIO_TinySDR"
+
+EXPORTS
+            InitHW = InitHW@12
+            OpenHW = OpenHW@0
+            CloseHW = CloseHW@0
+            StartHW = StartHW@4
+            StopHW = StopHW@0
+
+            GetStatus = GetStatus@0
+            GetHWLO = GetHWLO@0
+            GetHWSR = GetHWSR@0
+            SetHWLO = SetHWLO@4
+
+            ShowGUI = ShowGUI@0
+            HideGUI = HideGUI@0
+
+            SetCallback = SetCallback@4
+            TuneChanged = TuneChanged@4
+            IFLimitsChanged = IFLimitsChanged@8
+            RawDataReady = RawDataReady@16
+
+
+            ; GetTune = GetTune@0
+            ; GetMode = GetMode@0
+            ; GetFilters = GetFilters@12
+            ; ModeChanged = ModeChanged@1
